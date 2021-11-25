@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<style>
+body{
+background-image:url('https://wallpaperaccess.com/full/1401578.jpg');
+filter:invert(100%);
+}
+h1{
+text-align:center;
+}
+</style>
+</head>
+<html>
+<body>
+<h1>Registration Form</h1>
+<form action="/action_page.php">
+	<label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="fname"><br>
+	<label for="lname">Middle name:</label><br>
+	<input type="text" id="mname" name="mname"><br>
+	<label for="lname">Last name:</label><br>
+	<input type="text" id="lname" name="lname"><br>
+<p>Gender:</p>
+	<input type="radio" id="male" name="gender" value="Male">
+	<label for="html">Male</label><br>
+	<input type="radio" id="female" name="gender" value="Female">
+	<label for="css">Female</label><br>
+	<input type="radio" id="other" name="gender" value="Other">
+	<label for="css">Other</label><br><br>
+	<label for="email">Email:</label><br>
+	<input type="email" id="email" name="email"><br><br>
+	<label for="home">Home Address:</label><br>
+	<textarea id="home" name="home" rows="4" cols="50"></textarea><br><br>
+<p>Hobbies:</p>
+	<input type="checkbox" id="games" name="games">
+	<label for="games">Playing computer games.<label><br>
+	<input type="checkbox" id="inst" name="inst">
+	<label for="inst">Playing musical instruments.<label><br>
+	<input type="checkbox" id="cook" name="cook">
+	<label for="cook">Cooking.<label><br>
+	<input type="checkbox" id="draw" name="draw">
+	<label for="draw">Drawing.<label><br><br>
+	<label for="color">Favorite Color:</label>
+  		<select id="color" name="color">
+    			<option value="red">Red</option>
+    			<option value="orange">Orange</option>
+    			<option value="yellow">Yellow</option>
+    			<option value="green">Green</option>
+    			<option value="blue">Blue</option>
+    			<option value="indigo">Indigo</option>
+    			<option value="purple">Purple</option>
+    			<option value="gray">Gray</option>
+    			<option value="black">Black</option>
+    			<option value="white">White</option>
+    			<option value="cyan">Cyan</option>
+    			<option value="pink">Pink</option>
+  		</select><br>
+	<br><label for="say">Say something about yourself:</label><br>
+	<textarea id="say name="say" rows="4" cols="50"></textarea><br><br>
+<button type="submit" value="Submit">Submit</button>
+<button type="reset" value="Reset">Reset</button>
+</form>
+</body>
+</html>
